@@ -2,6 +2,7 @@
 
 import 'dart:ffi';
 
+import 'package:cv/Home_Page.dart';
 import 'package:cv/LoginPage.dart';
 import 'package:flutter/material.dart';
 
@@ -16,12 +17,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      
-      debugShowCheckedModeBanner: false,
-      title: 'CV Generator',
-      theme: ThemeData(primarySwatch: null),
-      // darkTheme: ThemeData.dark(),
-      home:  const Login()
-    );
+        debugShowCheckedModeBanner: false,
+        title: 'CV Generator',
+        theme: ThemeData(primarySwatch: null),
+        // darkTheme: ThemeData.dark(),
+        home: const Home_Page());
   }
 }

@@ -66,6 +66,8 @@ flutter:
      - assets/google.png
      - assets/Button.png
      - assets/next.png
+     - assets/loading.png
+     - assets/go.png
      
     
 
