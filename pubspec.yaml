@@ -68,7 +68,7 @@ flutter:
      - assets/next.png
      - assets/loading.png
      - assets/go.png
-     
+     - assets/done.png
     
 
   # An image asset can refer to one or more resolution-specific "variants", see

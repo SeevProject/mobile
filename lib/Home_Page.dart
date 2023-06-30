@@ -22,7 +22,7 @@ class _Home_PageState extends State<Home_Page> {
               Padding(
                 padding: EdgeInsets.only(top: screenheight / 10, left: 30),
                 child: Container(
-                  color: Colors.amber,
+                  //  color: Colors.amber,
                   width: screenwidth * 0.35,
                   height: screenheight * 0.17,
                   child: Padding(
@@ -51,7 +51,7 @@ class _Home_PageState extends State<Home_Page> {
                 Padding(
                   padding: EdgeInsets.only(left: 30),
                   child: Container(
-                    color: Colors.amber,
+                    //color: Colors.amber,
                     width: screenwidth * 0.7,
                     height: screenheight * 0.04,
                     child: Container(
@@ -75,7 +75,7 @@ class _Home_PageState extends State<Home_Page> {
             child: Row(
               children: [
                 Container(
-                  color: Colors.amber,
+                  // color: Colors.amber,
                   width: screenwidth * 0.35,
                   height: screenheight * 0.04,
                   child: Container(
@@ -213,8 +213,9 @@ class _Home_PageState extends State<Home_Page> {
                 Container(
                   width: screenwidth * 0.64,
                   height: screenheight * 0.06,
-                  color: Colors.amber,
+                  // color: Colors.amber,
                   child: const Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       Image(image: AssetImage("assets/go.png")),
                       Padding(
