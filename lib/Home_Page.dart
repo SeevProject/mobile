@@ -21,14 +21,14 @@ class _Home_PageState extends State<Home_Page> {
             children: [
               Padding(
                 padding: EdgeInsets.only(top: screenheight / 10, left: 30),
-                child: Container(
+                child: SizedBox(
                   //  color: Colors.amber,
                   width: screenwidth * 0.35,
                   height: screenheight * 0.17,
                   child: Padding(
                     padding: EdgeInsets.only(top: screenheight / 19),
                     child: Container(
-                      child: Text(
+                      child: const Text(
                         "Welcome,\nJames.",
                         style: TextStyle(
                             color: Colors.black,
@@ -49,13 +49,13 @@ class _Home_PageState extends State<Home_Page> {
             child: Row(
               children: [
                 Padding(
-                  padding: EdgeInsets.only(left: 30),
-                  child: Container(
+                  padding: const EdgeInsets.only(left: 30),
+                  child: SizedBox(
                     //color: Colors.amber,
                     width: screenwidth * 0.7,
                     height: screenheight * 0.04,
                     child: Container(
-                      child: Text(
+                      child: const Text(
                         "How can we help you today ?",
                         style: TextStyle(
                             color: Colors.grey,
@@ -74,12 +74,12 @@ class _Home_PageState extends State<Home_Page> {
                 left: screenwidth * 0.25, top: screenheight / 15),
             child: Row(
               children: [
-                Container(
+                SizedBox(
                   // color: Colors.amber,
                   width: screenwidth * 0.35,
                   height: screenheight * 0.04,
                   child: Container(
-                    child: Text(
+                    child: const Text(
                       "Actions to take",
                       style: TextStyle(
                           color: Colors.grey,
@@ -99,7 +99,7 @@ class _Home_PageState extends State<Home_Page> {
             child: Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Container(
+                SizedBox(
                   width: screenwidth * 0.6,
                   height: screenheight * 0.07,
                   child: ElevatedButton(
@@ -136,7 +136,7 @@ class _Home_PageState extends State<Home_Page> {
             child: Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Container(
+                SizedBox(
                   width: screenwidth * 0.6,
                   height: screenheight * 0.07,
                   child: ElevatedButton(
@@ -173,7 +173,7 @@ class _Home_PageState extends State<Home_Page> {
             child: Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Container(
+                SizedBox(
                   width: screenwidth * 0.6,
                   height: screenheight * 0.07,
                   child: ElevatedButton(
@@ -210,7 +210,7 @@ class _Home_PageState extends State<Home_Page> {
             padding: EdgeInsets.only(top: screenheight / 5),
             child: Column(
               children: [
-                Container(
+                SizedBox(
                   width: screenwidth * 0.64,
                   height: screenheight * 0.06,
                   // color: Colors.amber,

@@ -6,6 +6,7 @@ import 'package:cv/Change_info.dart';
 import 'package:cv/Finished_creating.dart';
 import 'package:cv/Home_Page.dart';
 import 'package:cv/LoginPage.dart';
+import 'package:cv/upload_picture.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -23,6 +24,6 @@ class MyApp extends StatelessWidget {
         title: 'CV Generator',
         theme: ThemeData(primarySwatch: null),
         // darkTheme: ThemeData.dark(),
-        home: const Finished_creating());
+        home: const UploadPicture());
   }
 }

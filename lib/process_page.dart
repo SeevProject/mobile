@@ -59,7 +59,7 @@ class _process_pageState extends State<process_page> {
                 child: Container(
                   width: 260,
                   height: 70,
-                  color: Color.fromARGB(0, 0, 0, 0),
+                  color: const Color.fromARGB(0, 0, 0, 0),
                   child: const Row(
                     children: [
                       Image(image: AssetImage("assets/go.png")),

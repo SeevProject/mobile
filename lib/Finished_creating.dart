@@ -20,14 +20,14 @@ class _Finished_creatingState extends State<Finished_creating> {
             children: [
               Padding(
                 padding: EdgeInsets.only(top: screenheight / 10, left: 30),
-                child: Container(
+                child: SizedBox(
                   //color: Colors.amber,
                   width: screenwidth * 0.45,
                   height: screenheight * 0.17,
                   child: Padding(
                     padding: EdgeInsets.only(top: screenheight / 19),
                     child: Container(
-                      child: Text(
+                      child: const Text(
                         "Finished\ncreating.",
                         style: TextStyle(
                             color: Colors.black,
@@ -48,13 +48,13 @@ class _Finished_creatingState extends State<Finished_creating> {
             child: Row(
               children: [
                 Padding(
-                  padding: EdgeInsets.only(left: 30),
-                  child: Container(
+                  padding: const EdgeInsets.only(left: 30),
+                  child: SizedBox(
                     // color: Colors.amber,
                     width: screenwidth * 0.7,
                     height: screenheight * 0.09,
                     child: Container(
-                      child: Text(
+                      child: const Text(
                         "We’ve finished creating your cv.\nAnd we will not charge you.",
                         style: TextStyle(
                             color: Colors.grey,
@@ -72,7 +72,7 @@ class _Finished_creatingState extends State<Finished_creating> {
             children: [
               Padding(
                 padding: const EdgeInsets.only(top: 90),
-                child: Container(
+                child: SizedBox(
                   width: screenwidth * 0.5,
                   height: screenheight * 0.23,
                   //color: Colors.amber,
@@ -88,7 +88,7 @@ class _Finished_creatingState extends State<Finished_creating> {
             padding: EdgeInsets.only(top: screenheight / 4.2),
             child: Column(
               children: [
-                Container(
+                SizedBox(
                   //color: Colors.amber,
                   width: screenwidth * 0.64,
                   height: screenheight * 0.06,

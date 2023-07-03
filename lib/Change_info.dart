@@ -20,14 +20,14 @@ class _Change_infoState extends State<Change_info> {
             children: [
               Padding(
                 padding: EdgeInsets.only(top: screenheight / 10, left: 30),
-                child: Container(
+                child: SizedBox(
                   // color: Colors.amber,
                   width: screenwidth * 0.45,
                   height: screenheight * 0.17,
                   child: Padding(
                     padding: EdgeInsets.only(top: screenheight / 19),
                     child: Container(
-                      child: Text(
+                      child: const Text(
                         "Change your\ninformation.",
                         style: TextStyle(
                             color: Colors.black,
@@ -48,13 +48,13 @@ class _Change_infoState extends State<Change_info> {
             child: Row(
               children: [
                 Padding(
-                  padding: EdgeInsets.only(left: 30),
-                  child: Container(
+                  padding: const EdgeInsets.only(left: 30),
+                  child: SizedBox(
                     // color: Colors.amber,
                     width: screenwidth * 0.6,
                     height: screenheight * 0.09,
                     child: Container(
-                      child: Text(
+                      child: const Text(
                         "Select a part of your\ninformation that you want to\nchange.",
                         style: TextStyle(
                             color: Colors.grey,
@@ -73,7 +73,7 @@ class _Change_infoState extends State<Change_info> {
             padding: EdgeInsets.only(top: screenheight / 1.79),
             child: Column(
               children: [
-                Container(
+                SizedBox(
                   width: screenwidth * 0.64,
                   height: screenheight * 0.06,
                   // color: Colors.amber,
