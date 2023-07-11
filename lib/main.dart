@@ -3,9 +3,11 @@
 import 'dart:ffi';
 
 import 'package:cv/Change_info.dart';
+import 'package:cv/Create_CV.dart';
 import 'package:cv/Finished_creating.dart';
 import 'package:cv/Home_Page.dart';
 import 'package:cv/LoginPage.dart';
+import 'package:cv/Your_CV.dart';
 import 'package:cv/upload_picture.dart';
 import 'package:flutter/material.dart';
 
@@ -24,6 +26,6 @@ class MyApp extends StatelessWidget {
         title: 'CV Generator',
         theme: ThemeData(primarySwatch: null),
         // darkTheme: ThemeData.dark(),
-        home: const UploadPicture());
+        home: const Your_cv());
   }
 }

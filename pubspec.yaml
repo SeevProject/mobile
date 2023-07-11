@@ -71,6 +71,8 @@ flutter:
      - assets/go.png
      - assets/done.png
      - assets/camera.png
+     - assets/temps.png
+     - assets/cv2023.jpg
     
 
   # An image asset can refer to one or more resolution-specific "variants", see
